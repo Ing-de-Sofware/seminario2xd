@@ -52,7 +52,7 @@ Estado del arte
 
 Prefacio 
 
-Para el desarrollo de la presente investigación se efectuó una búsqueda exhaustiva en las bases de datos Scopus y Web of Science, con el propósito de identificar literatura científica actual y de alto impacto. Para ampliar la cobertura de resultados se emplearon palabras claves en ingles cuidadosamente seleccionadas, entre ellas: DevSecOps, mobile security, OWASP MASVS, NIST, penetration testing, vulnerability detection, low code, Android app, detection method, mobile application insecurity, scanner, mobile security framework y security testing, combinadas mediante conectores lógicos como AND para precisar y refinar la información.  
+Para el desarrollo de la presente investigación se efectuó una búsqueda exhaustiva en las bases de datos Scopus y Web of Science, con el propósito de identificar literatura científica actual y de alto impacto. Para ampliar la cobertura de resultados se emplearon palabras clave en inglés cuidadosamente seleccionadas, entre ellas: DevSecOps, mobile security, OWASP MASVS, NIST, penetration testing, vulnerability detection, low code, Android app, detection method, mobile application insecurity, scanner, mobile security framework y security testing, combinadas mediante conectores lógicos como AND para precisar y refinar la información.  
 
 Los resultados se filtraron para considerar únicamente artículos científicos publicados entre 2022-2025, en idioma inglés, clasificados en las áreas de Computer Science e Engineering y limitados al tipo de documento article, garantizando así que las fuentes fueran relevantes y recientes. Finalmente, se verifico que todos los artículos seleccionados provinieran de revistas indexadas en los cuartiles Q1 o Q2, asegurando la solidez académica y la calidad de las publicaciones empleadas en el estado del arte.  
 
@@ -72,7 +72,6 @@ Para el abordaje de la cuarta categoría temática, se realizó una búsqueda es
 
 Para el abordaje de la quinta temática, se llevó a cabo una busqueda focalizada en las bases de datos de Scopus, Web of Science y ScienceDirect, con la finalidad de identificar investigaciones recientes que desarrollen enfoques avanzados para la detección de malware en Android mediante técnicas de aprendizaje automático y arquitecturas inteligentes. La estrategia de búsqueda incorpora términos especializados como Android malware detection, function call graph learning, explainable AI, lightweight deep learning models, mobile malware classification, federated learning security, overlay attack detection y heterogeneous graph modeling, combinados mediante los operadores logicos AND y OR para asegurar precisión y exhaustividad. Se aplicaron filtros para restringir la selección a artículos en inglés, publicados entre 2023 y 2025, pertenecientes a las áreas de Computer Science y Engineering e indexados en revistas Q1, lo cual permitió recuperar ocho estudios altamente pertinentes que incluyen análisis comparativos de algoritmos, detección basada en grafos sensibles, modelos explicables, arquitecturas ligeras, esquemas federados, identificación de ataques de superposición y grafos heterogéneos ponderados. Estos resultados constituyen un sustento solido para la propuesta de esta investigación orientada a la automatización de pruebas de seguridad bajo un enfoque DevSecOps.  
 
-
 Resúmenes por Categoría 
 
 Diagnóstico de vulnerabilidades y evaluación de riesgos en entornos Android y iOS   
@@ -91,7 +90,7 @@ Problema: Los entornos IoT y Edge presentan alta vulnerabilidad por su naturalez
 
 c) 
 
-Técnicas/Herramientas: Combina NIST CSF y SecDevOps mediante procesos Identify – Plan, Protect – Build/ Verify, Detect-Monitor y Respond & Recover. Incorpora seguridad en CI/CD (integración y entregas continuas), pruebas SAST/DAST (análisis estático y dinámico del código), monitoreo SIEM (plataformas que recopilan y correlacionan eventos de seguridad), modelado de amenazas con STRIDE, PASTA, DREAD (métodos para identificar y priorizar riesgos). Utiliza además MITRE ATT&CK, base de datos de tácticas y técnicas de ataques reales. Se validó con una revisión de 36 fuentes y la evaluación de 35 expertos de ciberseguridad.  
+Técnicas/Herramientas: Combina NIST CSF y SecDevOps mediante procesos Identify – Plan, Protect – Build/ Verify, Detect-Monitor y Respond & Recover. Incorpora seguridad en CI/CD (integración y entrega continua), pruebas SAST/DAST (análisis estático y dinámico del código), monitoreo SIEM (plataformas que recopilan y correlacionan eventos de seguridad), modelado de amenazas con STRIDE, PASTA, DREAD (métodos para identificar y priorizar riesgos). Utiliza además MITRE ATT&CK, base de datos de tácticas y técnicas de ataques reales. Se validó con una revisión de 36 fuentes y la evaluación de 35 expertos de ciberseguridad.  
 
 d) 
 
@@ -137,7 +136,7 @@ Técnicas/Herramientas: Se elaboraron matrices de dependencia entre 10 factores 
 
 d) 
 
-Principal resultado: Se hallo que código falso (cfr) es el factor más crítico (peso 0.7), seguido de cifrado insuficiente (ide) y riesgo de ingeniera inversa (rer) (peso 0-6), por ser los que más consecuencias generan (hasta 7 y 6 respectivamente), permitiendo priorizar y anticipar vulnerabilidades en el desarrollo de apps móviles.  
+Principal resultado: Se hallo que código falso (cfr) es el factor más crítico (peso 0.7), seguido de cifrado insuficiente (ide) y riesgo de ingeniería inversa (rer) (peso 0-6), por ser los que más consecuencias generan (hasta 7 y 6 respectivamente), permitiendo priorizar y anticipar vulnerabilidades en el desarrollo de apps móviles.  
 
  
 
@@ -147,7 +146,7 @@ Resumen artículo 4: Penterep: Comprehensive penetration with adaptable interact
 
 a) 
 
-Aporte: Presenta Penterep, una plataforma de pruebas de penetración que integra checklists interactivos adaptables para guiar y verificar de forma completa de seguridad. Combina test manuales y automatizados, asegura trazabilidad y genera reportes automáticos, complementando estándares como PTES, OWASP, NIST (frameworks internacionales para pruebas de penetración y buenas prácticas) y permite despliegue flexible en la nube o local. ​(Lazarov et al., 2025)​ 
+Aporte: Presenta Penterep, una plataforma de pruebas de penetración que integra checklists interactivos adaptables para guiar y verificar de forma completa la  seguridad. Combina test manuales y automatizados, asegura trazabilidad y genera reportes automáticos, complementando estándares como PTES, OWASP, NIST (frameworks internacionales para pruebas de penetración y buenas prácticas) y permite despliegue flexible en la nube o local. ​(Lazarov et al., 2025)​ 
 
 b) 
 
@@ -159,7 +158,7 @@ Técnicas/Herramientas: Se desarrolló una metodología basada en checklists din
 
 d) 
 
-Principal resultado: En un estudio de caso sobre la app vulnerable OWASP Juice Shop, Penterep detecto 35 de 52 vulnerabilidades frente a solo 17 de Burp Suite y menos de 12 de otras herramientas, demostrando mayor cobertura y precisión. La combinación de checklist interactivo y validación manual redujo falso positivos y aseguro que ninguna prueba crítica quedaría sin ejecuta, validando su eficacia para pruebas de penetración completas.  
+Principal resultado: En un estudio de caso sobre la app vulnerable OWASP Juice Shop, Penterep detecto 35 de 52 vulnerabilidades frente a solo 17 de Burp Suite y menos de 12 de otras herramientas, demostrando mayor cobertura y precisión. La combinación de checklist interactivo y validación manual redujo falso positivos y aseguro que ninguna prueba crítica quedaría sin ejecutar, validando su eficacia para pruebas de penetración completas.  
 
  
 
@@ -167,11 +166,11 @@ Resumen artículo 5: SCAnME – scanner comparative analysis and metrics for eva
 
 a) 
 
-Aporte: Los autores proponen una metodología para evaluar y comparar scanners DAST (Dynamic Application Security Testing) para aplicaciones web. Esta metodología compara la funcionabilidad, el rendimiento, la efectividad y calidad de reportes. Además de incluir plantillas que facilita el uso de SCAnME y la comparación objetiva de herramientas. (​Koman & Janiszewski, 2025)​ 
+Aporte: Los autores proponen una metodología para evaluar y comparar scanners DAST (Dynamic Application Security Testing) para aplicaciones web. Esta metodología compara la funcionalidad, el rendimiento, la efectividad y calidad de reportes. Además de incluir plantillas que facilita el uso de SCAnME y la comparación objetiva de herramientas. (​Koman & Janiszewski, 2025)​ 
 
 b) 
 
-Problema: El creciente número de ciberataques contra aplicaciones web requiere que desarrolladores y profesionales de la seguridad corrijan vulnerabilidades y prevenir amenazas. Al haber variedades de scanners DAST, tanto gratuitos y comerciales, no existe una herramienta o metodología estandarizada para comparar estos scanners. Además, que la mayoría solo se centran en una o dos tipos de vulnerabilidades específicas.  
+Problema: El creciente número de ciberataques contra aplicaciones web requiere que desarrolladores y profesionales de la seguridad corrijan vulnerabilidades y prevenir amenazas. Al haber variedades de scanners DAST, tanto gratuitos y comerciales, no existe una herramienta o metodología estandarizada para comparar estos scanners. Además, que la mayoría solo se centra en una o dos tipos de vulnerabilidades específicas.  
 
 c) 
 
@@ -233,7 +232,7 @@ c)
 
 Técnicas/Herramientas: 
 
-TSOFEN: Implementación en Java de TRIGGER$COPE que utiliza Soot (convierte el código en una representación intermedia que permite construir estructuras como el ICFG) y FlowDroid (Extiende Soot para realizar análisis de flujo de datos) para modelar la aplicación y construir un grafo de flow de control. 
+TSOPEN: Implementación en Java de TRIGGER$COPE que utiliza Soot (convierte el código en una representación intermedia que permite construir estructuras como el ICFG) y FlowDroid (Extiende Soot para realizar análisis de flujo de datos) para modelar la aplicación y construir un grafo de flow de control. 
 
 Ejecución Simbólica: Modela valores de objetos relacionados con tiempo, SMS, ubicación, enteros, cadenas. 
 
@@ -241,7 +240,7 @@ Recuperación de Predicados: Construye fórmulas lógicas para cada instrucción
 
 Clasificación y Dependencias de control: Clasifica a los predicados como sospechosos y verifica si controlan la ejecución de métodos sensibles (ej. Enviar SMS, acceder a ubicación). 
 
-Experimentos a Gran Escala: Se ejecuta TSOFEN en 508 122 APKs del conjunto de datos de AndroZoo. 
+Experimentos a Gran Escala: Se ejecuta TSOPEN en 508 122 APKs del conjunto de datos de AndroZoo. 
 
 d) 
 
@@ -289,7 +288,7 @@ Aporte: El artículo ofrece una revisión sistemática reciente que depura la li
 
 b) 
 
-Problema: La seguridad suele abordarse tarde y de forma reactiva: se descuida en diseño, el testing se centra más en lo funcional que en lo seguro y faltan parámetros cuantificables para priorizar. Hay brechas de cultura y capacidades en los equipos, la estimación de esfuerzo para trata riesgos es imprecisa y cuesta encajar técnicas tradicionales en contextos Agiles/DevOps si no se automatizan. También es difícil elegir el modelo adecuado para cada amenaza.  
+Problema: La seguridad suele abordarse tarde y de forma reactiva: se descuida en diseño, el testing se centra más en lo funcional que en lo seguro y faltan parámetros cuantificables para priorizar. Hay brechas de cultura y capacidades en los equipos, la estimación de esfuerzo para trata riesgos es imprecisa y cuesta encajar técnicas tradicionales en contextos Ágiles/DevOps si no se automatizan. También es difícil elegir el modelo adecuado para cada amenaza.  
 
 c) 
 
@@ -297,7 +296,7 @@ Técnicas/Herramientas: Se describen de forma aplicada: modelado de amenazas y d
 
 d) 
 
-Principal resultado: Integrar la seguridad desde el inicio y medir el riesgo con métricas numéricas mejora la priorización y el uso de recursos, reduce los costos de correcciones tardías y enfoca las mitigaciones donde más impacto tienen. La automatización del análisis de amenazas y de las pruebas de seguridad aumentan la cobertura, la velocidad y ayuda a estandarizar el proceso. El uso de técnicas de IA eleva la detección de vulnerabilidades y la estimación, siempre que haya validación rigurosa de los modelos de una elección adecuada según la amenaza.  
+Principal resultado: Integrar la seguridad desde el inicio y medir el riesgo con métricas numéricas mejora la priorización y el uso de recursos, reduce los costos de correcciones tardías y enfoca las mitigaciones donde más impacto tienen. La automatización del análisis de amenazas y de las pruebas de seguridad aumentan la cobertura, la velocidad y ayuda a estandarizar el proceso. El uso de técnicas de IA eleva la detección de vulnerabilidades y la estimación, siempre que haya validación rigurosa de los modelos de la elección adecuada según la amenaza.  
 
  
 
@@ -305,11 +304,11 @@ Resumen artículo 10: What is discussed about Flutter on Stack Overflow (SO) que
 
 a) 
 
-Aporte: Este articulo transforma 176 876 preguntas de Stack Overflow sobre Flutter en un mapa claro de 12 temas y con métricas objetivas de vistas, puntaje, tiempo a la respuesta y tasa sin respuesta aceptada, muestra que interesa y que cuesta más. Además, revela la evolución anual y la participación de usuarios, dando base a priorizar documentación, herramientas y contenidos formativos ​(Alanazi & Alfayez, 2024)​. 
+Aporte: Este articulo transforma 176 876 preguntas de Stack Overflow sobre Flutter en un mapa claro de 12 temas y con métricas objetivas de vistas, puntaje, tiempo a la respuesta y tasa sin respuesta aceptada, muestra qué interesa y qué cuesta más. Además, revela la evolución anual y la participación de usuarios, dando base a priorizar documentación, herramientas y contenidos formativos ​(Alanazi & Alfayez, 2024)​. 
 
 b) 
 
-Problema: No se sabía con datos donde se trababan más de los desarrolladores de Flutter ni cómo cambia ese panorama en el tiempo. El estudio identifica con gran obstáculo la instalación y la automatización de builds, que concentra más actividad y presenta más dificultad para resolverse, pese a exigir guías. También alerta de una caída de actividad en 2023 
+Problema: No se sabía con datos donde se trababan más de los desarrolladores de Flutter ni cómo cambia ese panorama en el tiempo. El estudio identifica como gran obstáculo la instalación y la automatización de builds, que concentra más actividad y presenta más dificultad para resolverse, pese a exigir guías. También alerta de una caída de actividad en 2023 
 
 c) 
 
@@ -333,11 +332,11 @@ Problema: La evidencia sobre pruebas móviles estaba dispersa y poco saturada, e
 
 c) 
 
-Técnicas/Herramientas: Se realizo un estudio terciario siguiendo el proceso de una revisión sistemática (planificación, ejecución y reporte). Hubo búsqueda automática sin restricción de año hasta marzo de 2023 en IEEE Xplore, ACM Digital Library, Scopus, SpringerLink, ScienceDirect, Engineering Village, Web of Science y Wiley con cadenas refinadas. La gestión y de duplicación se hizo con StArt, se aplicaron criterios explícitos de inclusión y exclusión, y se complementó con snowballing hacia atrás y hacia adelante usando Google Scholar. La extracción de datos se bajó en un formulario que capturo tipo de estudio, tópicos, objetivos de prueba, plataformas y numero de primarios. La calidad se evaluó con el esquema DARE de cuatro preguntas con puntuación de 0 a 4. Se clasificaron los estudios por temas principales y específicos, por objetivos funcionales y no funcionales, y por plataformas Android o iOS. 
+Técnicas/Herramientas: Se realizo un estudio terciario siguiendo el proceso de una revisión sistemática (planificación, ejecución y reporte). Hubo búsqueda automática sin restricción de año hasta marzo de 2023 en IEEE Xplore, ACM Digital Library, Scopus, SpringerLink, ScienceDirect, Engineering Village, Web of Science y Wiley con cadenas refinadas. La gestión y de duplicación se hizo con StArt, se aplicaron criterios explícitos de inclusión y exclusión, y se complementó con snowballing hacia atrás y hacia adelante usando Google Scholar. La extracción de datos se basó en un formulario que capturo tipo de estudio, tópicos, objetivos de prueba, plataformas y numero de primarios. La calidad se evaluó con el esquema DARE de cuatro preguntas con puntuación de 0 a 4. Se clasificaron los estudios por temas principales y específicos, por objetivos funcionales y no funcionales, y por plataformas Android o iOS. 
 
 d) 
 
-Principal resultado: El trabajo finalizo con 21 estudios seleccionados que en conjunto incluyen más de 1 300 trabajos primarios, Se observo que la mayoría se centra en pruebas de funcionalidades y en la plataforma Android, mientras que hay pocos estudios específicos para iOS. También se confirmó que las técnicas basadas en modelos son las empleadas y que la generación de casos de prueba, junto con la falta de herramientas adecuadas, siguen siendo los retos más importantes. Con estos hallazgos se definió una agenda de 15 desafíos clave para guiar las investigaciones futuras en pruebas de aplicaciones móviles.  
+Principal resultado: El trabajo finalizo con 21 estudios seleccionados que en conjunto incluyen más de 1 300 trabajos primarios, Se observo que la mayoría se centra en pruebas de funcionalidades y en la plataforma Android, mientras que hay pocos estudios específicos para iOS. También se confirmó que las técnicas basadas en modelos son más empleadas y que la generación de casos de prueba, junto con la falta de herramientas adecuadas, siguen siendo los retos más importantes. Con estos hallazgos se definió una agenda de 15 desafíos clave para guiar las investigaciones futuras en pruebas de aplicaciones móviles.  
 
  
 
@@ -349,7 +348,7 @@ Aporte: La contribución principal es el cambio de enfoque en la investigación 
 
 b) 
 
-Problema: Es la volatilidad o inestabilidad del código de prueba (test flakiness) en aplicaciones móviles. Consiste en que una prueba arroja resultados inconsistentes (pasa/falla) sin que el código de la aplicación cambie. Este fenómeno gravemente socava la confianza en las suites de pruebas automatizadas y causa una significativa pérdida de tiempo a los equipos de desarrollos.  
+Problema: Es la volatilidad o inestabilidad del código de prueba (test flakiness) en aplicaciones móviles. Consiste en que una prueba arroja resultados inconsistentes (pasa/falla) sin que el código de la aplicación cambie. Este fenómeno socava gravemente la confianza en las suites de pruebas automatizadas y causa una significativa pérdida de tiempo a los equipos de desarrollos.  
 
 c) 
 
@@ -365,7 +364,7 @@ Resumen artículo 13: Enhancing cloud-native DevSecOps: A Zero Trust approach fo
 
 a) 
 
-Aporte: Este artículo ofrece un framework práctico para instituciones financieras, que estas implementen el modelo de seguridad Zero Trust en sus entornos cloud-native DevSecOps. El framework se enfoca en realizar un análisis de la relación entre políticas de seguridad que ya existen en DevSecOps y Zero Trust, la identificación de consideraciones clave para aplicar Zero Trust en cada etapa del ciclo de vida del desarrollo de software, y se estaría formalizando con una propuesta con 7 dominios y 23 subcategorías, evaluado por 9 criterios ​(Shin et al., 2025)​. 
+Aporte: Este artículo ofrece un framework práctico para instituciones financieras, que estas implementen el modelo de seguridad Zero Trust en sus entornos cloud-native DevSecOps. El framework se enfoca en realizar un análisis de la relación entre políticas de seguridad que ya existen en DevSecOps y Zero Trust, la identificación de consideraciones clave para aplicar Zero Trust en cada etapa del ciclo de vida del desarrollo de software, y se formaliza con una propuesta con 7 dominios y 23 subcategorías, evaluado por 9 criterios ​(Shin et al., 2025)​. 
 
 b) 
 
@@ -393,7 +392,7 @@ Problema: Para este artículo se reconoció la falta de integración de la segur
 
 c) 
 
-Técnicas/Herramientas: Esta metodología se sustenta en un ecosistema de herramientas y estándares para facilitar la seguridad automatizada, con modelado gráfico de componentes de la aplicación y para entornos de contenedores. Esto se vincula con un Catálogo de Amenazas y la utilización de frameworks para generar planes de pruebas automáticas. 
+Técnicas/Herramientas: Esta metodología se sustenta en un ecosistema de herramientas y estándares para facilitar la seguridad automatizada, con modelado gráfico de componentes de la aplicación y para entornos de contenedores. Esta metodología se vincula con un Catálogo de Amenazas y la utilización de frameworks para generar planes de pruebas automáticas. 
 
 d) 
 
@@ -473,7 +472,7 @@ Problema: Las herramientas existentes detectan posibles vulnerabilidades, pero n
 
 c) 
 
-Técnicas/Herramientas: RONIN integra tres etapas: La primera de ellas es el análisis estático con SEBASTiAN para identificar fallas potenciales, el segundo es la instrumentación con Soot para registrar si las pruebas alcanzan el código vulnerable y el ultimo es Aprendizaje por refuerzo profundo (Soft Actor Critic) que, mediante el entorno de pruebas OpenAI Gym y la simulación de eventos GUI con ARES, aprende a generar los Intents correctos para explotar la falla.  
+Técnicas/Herramientas: RONIN integra tres etapas: La primera etapa es el análisis estático con SEBASTiAN para identificar fallas potenciales, el segundo es la instrumentación con Soot para registrar si las pruebas alcanzan el código vulnerable y el ultimo es Aprendizaje por refuerzo profundo (Soft Actor Critic) que, mediante el entorno de pruebas OpenAI Gym y la simulación de eventos GUI con ARES, aprende a generar los Intents correctos para explotar la falla.  
 
 d) 
 
@@ -489,7 +488,7 @@ Aporte: El articulo propone una técnica de pruebas metamórficas aplicadas a la
 
 b) 
 
-Problema: Las herramientas existentes se enfocan en el código o en la comunicación de red, pero no evalúan lo que ocurre en la pantalla mientas el usuario interactúa con la aplicación. Esta limitación genera el llamado “problema del oráculo” que consiste en la dificultad de saber si una falla detecta realmente pone en riesgo la seguridad. Por ello, muchas vulnerabilidades en la autenticación o en la gestión de sesiones no son detectadas antes del despliegue.  
+Problema: Las herramientas existentes se enfocan en el código o en la comunicación de red, pero no evalúan lo que ocurre en la pantalla mientas el usuario interactúa con la aplicación. Esta limitación genera el llamado “problema del oráculo” que consiste en la dificultad de saber si una falla detectada realmente pone en riesgo la seguridad. Por ello, muchas vulnerabilidades en la autenticación o en la gestión de sesiones no son detectadas antes del despliegue.  
 
 c) 
 
@@ -525,7 +524,7 @@ Resumen artículo 20: Defendroid: Real-time Android code vulnerability detection
 
 a) 
 
-Aporte: El articulo presenta una propuesta para detectar código riesgos en Android a tiempo real dentro de Android Studio. Su aporte es adelantar la verificación de seguridad a las primeras fases del desarrollo y explicar en lenguaje comprensible porque una línea es problemática, sin exponer el código de la empresa. Además, promueve la colaboración entre equipos al compartir del modelo de forma segura ​(Senanayake et al., 2024)​.  
+Aporte: El articulo presenta una propuesta para detectar código con riesgos en Android a tiempo real dentro de Android Studio. Su aporte es adelantar la verificación de seguridad a las primeras fases del desarrollo y explicar en lenguaje comprensible porque una línea es problemática, sin exponer el código de la empresa. Además, promueve la colaboración entre equipos al compartir del modelo de forma segura ​(Senanayake et al., 2024)​.  
 
 b) 
 
@@ -537,7 +536,7 @@ Técnicas/Herramientas: Defendroid usa un modelo de aprendizaje automático entr
 
 d) 
 
-Principal resultado: El sistema muestra alto desempeño: alrededor de 96% de precisión y un F1 de 0.96 en pruebas de calificación, en el escenario colaborativo mantiene cifras similares. El plugin analiza una línea en aproximadamente 300 milisegundos y en pruebas comparativas supera herramientas conocidas. En evaluaciones con desarrolladores, la mayoría reporto satisfacción con la precisión, la velocidad y la utilidad de las explicaciones, Cubre diez categorías frecuentes de debilidades de seguridad en código Android.  
+Principal resultado: El sistema muestra alto desempeño: alrededor de 96% de precisión y un F1 de 0.96 en pruebas de calificación, en el escenario colaborativo mantiene cifras similares. El plugin analiza una línea en aproximadamente 300 milisegundos y en pruebas comparativas supera herramientas conocidas. En evaluaciones con desarrolladores, la mayoría reportó satisfacción con la precisión, la velocidad y la utilidad de las explicaciones, Cubre diez categorías frecuentes de debilidades de seguridad en código Android.  
 
  
 
@@ -569,7 +568,7 @@ Aporte: El artículo realizó una revisión exhaustiva que identificó y describ
 
 b) 
 
-Problema: Desacreditar la percepción de que la detección de malware en Android mediante aprendizaje automático (Machine Learning) es un problema resuelto, a pesar de las altas métricas de rendimiento reportadas. Identifica cinco desafíos no resueltos que impiden soluciones efectivas a largo plazo: 
+Problema: Desacreditando la percepción de que la detección de malware en Android mediante aprendizaje automático (Machine Learning) es un problema resuelto, a pesar de las altas métricas de rendimiento reportadas. Identifica cinco desafíos no resueltos que impiden soluciones efectivas a largo plazo: 
 
 Escasez de datasets actualizados, equilibrados y de alta calidad, con problemas como datos obsoletos, duplicados, desbalanceados y con etiquetado incierto. 
 
@@ -587,7 +586,7 @@ Técnicas/Herramientas: Revisión de literatura sistemática: búsqueda en Googl
 
 d) 
 
-Principal resultado: La detección de malware Android no es un problema resuelto debido a cinco desafíos claves, respaldados por análisis de literatura. Estudios muestran caídas en rendimiento por drift, inconsistencias dinámicas, vulnerabilidades adversarias y falta de explicabilidad. Recomienda datasets representativos, manejo de drift, seguridad contra envenamiento/adversarial drift y XAI para insights, acercando el problema a resolverse. 
+Principal resultado: La detección de malware Android no es un problema resuelto debido a cinco desafíos claves, respaldados por análisis de literatura. Estudios muestran caídas en rendimiento por drift, inconsistencias dinámicas, vulnerabilidades adversarias y falta de explicabilidad. Recomienda datasets representativos, manejo de drift, seguridad contra envenenamiento/deriva adversarial y XAI para insights, acercando el problema a resolverse. 
 
  
 
@@ -651,7 +650,7 @@ Aporte: ActDroid introduce un novedoso marco de aprendizaje activo capaz de redu
 
 b) 
 
-Problema: El estudio responde a la dificultad persistente en los sistemas tradicionales de detección de malware en Android: la dependencia intensiva de grandes volúmenes de datos etiquetados y el pobre desempeño ante amenazas nuevas no representadas en el set de entrenamiento. Esto se agrava por el carácter cambiante de las amenazas móviles y por el hecho de que el etiquetado manual requiere esfuerzo experto y no escalable. Como ejemplo, el conjunto de datos Drebin incluyó más de 5,560 aplicaciones maliciosas, lo que evidencia la magnitud del problema de clasificación precisa frente a nuevas variantes.  
+Problema: El estudio responde a la dificultad persistente en los sistemas tradicionales de detección de malware en Android: la dependencia intensiva de grandes volúmenes de datos etiquetados y el pobre desempeño ante amenazas nuevas no representadas en el conjunto de entrenamiento. Esto se agrava por el carácter cambiante de las amenazas móviles y por el hecho de que el etiquetado manual requiere esfuerzo experto y no escalable. Como ejemplo, el conjunto de datos Drebin incluyó más de 5,560 aplicaciones maliciosas, lo que evidencia la magnitud del problema de clasificación precisa frente a nuevas variantes.  
 
 c) 
 
@@ -727,11 +726,11 @@ Resumen artículo 29: MPDroid: A multimodal pre-training Android malware detecti
 
 a) 
 
-Aporte: El estudio propone un paradigma de aprendizaje multimodal que fusiona características estáticas y dinámicas para mitigar el sesgo unimodal, incorporando alineación de modalidades y fusión a nivel de modelo, lo que permite interferencia eficiente en una sola modalidad y reduce el tiempo de entrenamiento en tareas downstream ​(S. Zhang et al., 2025)​.  
+Aporte: El estudio propone un paradigma de aprendizaje multimodal que fusiona características estáticas y dinámicas para mitigar el sesgo unimodal, incorporando alineación de modalidades y fusión a nivel de modelo, lo que permite inferencia eficiente en una sola modalidad y reduce el tiempo de entrenamiento en tareas downstream ​(S. Zhang et al., 2025)​.  
 
 b) 
 
-Problema: Los métodos de detección de malware en Android enfrentan limitaciones en análisis estáticos vulnerables a ofuscación con precisión comprometida, y dinámicos que consumen recursos intensivos, con ataques móviles alcanzando 33.8 millones en 2023 y un incremento del 50% respecto al año anterior según infore de Kaspersky. 
+Problema: Los métodos de detección de malware en Android enfrentan limitaciones en análisis estáticos vulnerables a ofuscación con precisión comprometidas, y dinámicos que consumen recursos intensivos, con ataques móviles alcanzando 33.8 millones en 2023 y un incremento del 50% respecto al año anterior según informe de Kaspersky. 
 
 c) 
 
@@ -763,7 +762,7 @@ Principal resultado: El sistema logra una precisión promedio de 98.7%, recall d
 
  
 
-Resumen artículo 31: Android traffic nalware analysis and detection using ensemble classifier 
+Resumen artículo 31: Android traffic malware analysis and detection using ensemble classifier 
 
 a) 
 
@@ -851,11 +850,11 @@ Aporte: SeGDroid propone un método de detección de malware Android mediante ap
 
 b) 
 
-Problema: El malware Android evade detección mediante ofuscación. Los métodos basados en FCG presentan limitaciones: grafos con hasta 250,000 nodos en aplicaciones benignas (ratio de desbalance 10.3), técnicas previas solo consideran ocurrencia de APIs/opcodes sin semántica y nombres de funciones autodefinidas son fácilmente ofúscales. Además, no existían mecanismos de explicabilidad para modelos FCG que permitieran trazar comportamientos maliciosos específicos.  
+Problema: El malware Android evade detección mediante ofuscación. Los métodos basados en FCG presentan limitaciones: grafos con hasta 250,000 nodos en aplicaciones benignas (ratio de desbalance 10.3), técnicas previas solo consideran ocurrencia de APIs/opcodes sin semántica y nombres de funciones autodefinidas son fácilmente ofuscables. Además, no existían mecanismos de explicabilidad para modelos FCG que permitieran trazar comportamientos maliciosos específicos.  
 
 c) 
 
-Técnicas/Herramientas:  Emplea GrapghSAGE con dos capas convolucionales (64 y 32 nodos), learning rate 0.001, optimizador Adam y 100 épocas. Usa Androguard sobre datasets CICMal2020 (16,595 aplicaciones en 5 categorías) y MalRadar (3,935 muestras de 15 familias). Aplican umbral A=8,000 nodos para poda de grafos y modelo skip-gram de word2vec para embeddings contextuales de APIs y secuencias opcode.  
+Técnicas/Herramientas:  Emplea GrapghSAGE con dos capas convolucionales (64 y 32 nodos), learning rate 0.001, optimizador Adam y 100 épocas. Usa Androguard sobre datasets CICMal2020 (16,595 aplicaciones en 5 categorías) y MalRadar (3,935 muestras de 15 familias). Aplica umbral A=8,000 nodos para poda de grafos y modelo skip-gram de word2vec para embeddings contextuales de APIs y secuencias opcode.  
 
 d) 
 
@@ -867,7 +866,7 @@ Resumen artículo 36: Enhancing android malware detection explainability through
 
 a) 
 
-Aporte: Propone un enfoque explicable para detectar malware. Android extrayendo únicamente APIs críticas del Function Call Graph (FCG). Selecciona APIs de 11 paquetes de Android sensibles (telephony, net, accounts, location, media) que requieren permisos especiales de ejecución. Utiliza TF-IDF para elegir las 20 APIs más relevantes por aplicación y Word2Vec para generar embeddings de 25 dimensiones. Implementa SHAP para explicabilidad, permitiendo identificar directamente que APIs críticas se correlacionan con comportamiento maliciosos específicos de cada familia de malware, ofreciendo explicaciones comprensibles sin necesidad de analizar código bytecode.  ​Haga clic o pulse aquí para escribir texto.​. 
+Aporte: Propone un enfoque explicable para detectar malware. Android extrayendo únicamente APIs críticas del Function Call Graph (FCG). Selecciona APIs de 11 paquetes de Android sensibles (telephony, net, accounts, location, media) que requieren permisos especiales de ejecución. Utiliza TF-IDF para elegir las 20 APIs más relevantes por aplicación y Word2Vec para generar embeddings de 25 dimensiones. Implementa SHAP para explicabilidad, permitiendo identificar directamente que APIs críticas se correlacionan con comportamiento maliciosos específicos de cada familia de malware, ofreciendo explicaciones comprensibles sin necesidad de analizar código bytecode ​(Soi et al., 2024)​. 
 
 b) 
 
@@ -907,7 +906,7 @@ Resumen artículo 38: Detection of Evasive Android Malware Using EigenGVN
 
 a) 
 
-Aporte: Esta investigación presenta un mecanismo innovador basado en grafos de llamadas al sistema que captura subgrafos maliciosos invariantes a evasiones, representándolos como señales gráficas para una detección integral, destacando su novedad al abordar simultáneamente múltiples tipos de amenazas con una sola arquitectura ​(John et al., 2024)​. 
+Aporte: Esta investigación presenta un mecanismo innovador basado en grafos de llamadas al sistema que captura subgrafos maliciosos invariantes a evasiones, representándolos como señales gráficas para una detección integral, destacando su novedad al abordar simultáneamente múltiples tipos de amenazas con una sola arquitectura ​(John et al., 2024a)​. 
 
 b) 
 
@@ -919,7 +918,7 @@ Técnicas/Herramientas: Se extraen secuencias con Monkeyrunner y Strace en emula
 
 d) 
 
-Principal resultado: EigenGCN alcanza accutacies de 98.7% en 2230 muestras de Drebin para malware común, 97.3% en 800 de AndroZoo para ofuscado, 97.8% eb 1100 reempaquetadas en AndroZoo y MalGenome, y 90% en 700 de mimetismo, con FPR de 0.014 en general superando baselines. 
+Principal resultado: EigenGCN alcanza accuracies de 98.7% en 2230 muestras de Drebin para malware común, 97.3% en 800 de AndroZoo para ofuscado, 97.8% eb 1100 reempaquetadas en AndroZoo y MalGenome, y 90% en 700 de mimetismo, con FPR de 0.014 en general superando baselines. 
 
  
 
@@ -1019,13 +1018,13 @@ Conclusiones comparadas de Modelos de aprendizaje automático y detección intel
 
 Mientras que ​Muzaffar et al. (2025)​ con ActDroid centran su aporte en disminuir la dependencia de grandes volúmenes de datos etiquetados mediante un esquema de aprendizaje activo, alcanzando una precisión del 96.3% con solo el 30% de los datos, ​Gu et al. (2024)​ con GSEDroid se orientan hacia la reducción de la complejidad semántica del modelo a través de embeddings ligeros basados en grafos neuronales, logrando 97.32% de precisión y una compresión del 42% en los vectores. Mientras que el primero optimiza la cantidad y costo del etiquetado, el segunda mejora la calidad de la representación del conocimiento y la eficiencia computacional. En conjunto, ambos trabajos evidencian una tendencia convergente hacia la eficiencia escalable en la detección de malware Android, donde se busca mantener la precisión reduciendo los recursos humanos y técnicos necesarios para sostener modelos actualizado y adaptativos.  
 
-Por un lado, ​He et al. (2026)​ con MCGDroid refuerzan la semántica técnica interna del código, integrando opcodes y llamadas a APIs sensibles dentro de grafos de clases para capturar patrones de comportamiento malicioso, alcanzando una precisión del 98.82% incluso ante muestras ofuscadas. Por otro lado, ​R. Arikkat et al. (2025)​ con DroidTTP trasladan el análisis hacia un plano táctico-conductual, vinculando las acciones de las aplicaciones con las técnicas y procedimientos (TTPs) del marco MITRE ATT&CK, logrando un 94.28% de precisión y reduciendo falsos positivos en 23%. Mientras el primero busca entender cómo actúa el malware dentro del código, el segundo busca entender por qué actúa, interpretando su intención operativa. Esta comparación revela una progresión metodológica: de la semántica estructural orientada a la ingeniera inversa, hacia una semántica contextual vinculada con la inteligencia artificial. Ambas aproximaciones se complementan al construir sistemas de detección más interpretativos, resilientes y difíciles de evadir.  
+Por un lado, ​He et al. (2026)​ con MCGDroid refuerzan la semántica técnica interna del código, integrando opcodes y llamadas a APIs sensibles dentro de grafos de clases para capturar patrones de comportamiento malicioso, alcanzando una precisión del 98.82% incluso ante muestras ofuscadas. Por otro lado, ​R. Arikkat et al. (2025)​ con DroidTTP trasladan el análisis hacia un plano táctico-conductual, vinculando las acciones de las aplicaciones con las técnicas y procedimientos (TTPs) del marco MITRE ATT&CK, logrando un 94.28% de precisión y reduciendo falsos positivos en 23%. Mientras el primero busca entender cómo actúa el malware dentro del código, el segundo busca entender por qué actúa, interpretando su intención operativa. Esta comparación revela una progresión metodológica: de la semántica estructural orientada a la ingeniería inversa, hacia una semántica contextual vinculada con la inteligencia artificial. Ambas aproximaciones se complementan al construir sistemas de detección más interpretativos, resilientes y difíciles de evadir.  
 
 En el trabajo de ​S. Zhang et al. (2025)​, MPDroid propone una fusión multimodal que integra características estáticas y dinámicas mediante preentrenamiento conjunto, alcanzando 98.3% de precisión y reduciendo el tiempo de detección a 7.39 segundos, con el objetivo de superar el sesgo unimodal y permitir inferencia eficiente en una sola modalidad. En contraste, ​Yapici (2025)​ introduce un enfoque basado en imágenes, transformando el bytecode Dalvik en representaciones visuales (RGB y escala de grises), eliminando duplicados y balanceando clases, lo que incrementa la validez experimental y mejora la precisión hasta 98.7%. Mientras que el primero integra fuentes heterogéneas para aumentar la capacidad de generalización, el segundo limpia y reestructura los datos para mejorar la fiabilidad del aprendizaje. Ambos caminos confluyen en la búsqueda de una detección más robusta y generalizable, demostrando que la adaptabilidad del modelo puede lograrse tanto mediante la combinación de modalidad como mediante la depuración y reinterpretación del dato en sí.  
 
 Conclusiones comparadas de Detección de Malware Android con Machine Learning y Técnicas Avanzadas 
 
-​​Ma et al. (2024)​ implementaron MCADS, un sistema de dos capas donde la primera utiliza MLP para analizar AndroidManifest.xml filtrando el 99.73% de aplicaciones, mientras la segunda emplea ShuffleNetV2-ECA para procesar imágenes DEX, logrando un modelo compacto de 30.43 MB con entrenamiento de 12.76 segundos por época. ​Z. Liu et al. (2024)​ desarrollaron MobiPCR bajo una arquitectura hibrida nube-Edge que integra ensemble dinámico DES-KNN, interceptando instalaciones con tiempos de 2.5 segundos y alcanzando 98.9% de precisión, superando a Avast Mobile Security en 15%. Ambos priorizan eficiencia en dispositivos móviles, pero MCADS sobresale en usabilidad practica al automatizar detección durante instalación sin intervención del usuario, evidenciando un balance entre comprensión visual versus interpretabilidad tradicional.  
+​​Ma et al. (2024)​implementaron MCADS, un sistema de dos capas donde la primera utiliza MLP para analizar AndroidManifest.xml filtrando el 99.73% de aplicaciones, mientras la segunda emplea ShuffleNetV2-ECA para procesar imágenes DEX, logrando un modelo compacto de 30.43 MB con entrenamiento de 12.76 segundos por época. ​Z. Liu et al. (2024)​ desarrollaron MobiPCR bajo una arquitectura hibrida nube-Edge que integra ensemble dinámico DES-KNN, interceptando instalaciones con tiempos de 2.5 segundos y alcanzando 98.9% de precisión, superando a Avast Mobile Security en 15%. Ambos priorizan eficiencia en dispositivos móviles, pero MCADS sobresale en usabilidad practica al automatizar detección durante instalación sin intervención del usuario, evidenciando un balance entre comprensión visual versus interpretabilidad tradicional.  
 
  
 
@@ -1033,7 +1032,7 @@ Conclusiones comparadas de Detección de Malware Android con Machine Learning y 
 
  
 
-​​Haga clic o pulse aquí para escribir texto.​ presentaron EigenGVN capturando subgrafos maliciosos invariantes mediante clustering espectral que computa centralidades como Betweenness y PageRank, alcanzando 98.7% en malware común, 97.3% en ofuscado y 90% en mimetismo adversarial con FPR de 0.014. ​Haga clic o pulse aquí para escribir texto.​ evaluaron integración de aprendizaje federado con encriptación holomórfica y k-anonimidad, logrando métodos híbridos con 98.57% de precisión en Drebin y superando clasificadores base en 16% de F1-score preservando privacidad sin compartir datos crudos. ​Haga clic o pulse aquí para escribir texto.​ utilizaron XAI con SHAP y LIME para explicar decisiones de CNN-LSTM que alcanzo 99.48% de precisión, revelando que Features 4 y 2 contribuyen a detectar malware mientras Features 12 y 18 identifican aplicaciones seguras. EigenGVN y Nawshin et al. Abordan robustez técnica contra evasiones y protección de datos sensibles respectivamente, mientras ​Haga clic o pulse aquí para escribir texto.​ Expone limitaciones críticas al demostrar que alta precisión en laboratorio (99.48%) se debe a patrones temporales y no a compresión de comportamientos maliciosos reales, señalando necesidad de cambiar enfoque desde exactitud hacia sistemas confiables y aplicables.  	 
+ ​John et al. (2024b)​ presentaron EigenGVN capturando subgrafos maliciosos invariantes mediante clustering espectral que computa centralidades como Betweenness y PageRank, alcanzando 98.7% en malware común, 97.3% en ofuscado y 90% en mimetismo adversarial con FPR de 0.014. ​Nawshin et al. (2024)​ evaluaron integración de aprendizaje federado con encriptación holomórfica y k-anonimidad, logrando métodos híbridos con 98.57% de precisión en Drebin y superando clasificadores base en 16% de F1-score preservando privacidad sin compartir datos crudos. ​Ullah et al. (2024)​ utilizaron XAI con SHAP y LIME para explicar decisiones de CNN-LSTM que alcanzo 99.48% de precisión, revelando que Features 4 y 2 contribuyen a detectar malware mientras Features 12 y 18 identifican aplicaciones seguras. EigenGVN y Nawshin et al. Abordan robustez técnica contra evasiones y protección de datos sensibles respectivamente, mientras ​Ullah et al. (2024)​ expone limitaciones críticas al demostrar que alta precisión en laboratorio (99.48%) se debe a patrones temporales y no a compresión de comportamientos maliciosos reales, señalando necesidad de cambiar enfoque desde exactitud hacia sistemas confiables y aplicables.  	 
 
  
 
@@ -1162,3 +1161,5 @@ Referencias bibliográficas
 ​Zhang, S., Su, H., Liu, H., & Yang, W. (2025). MPDroid: A multimodal pre-training Android malware detection method with static and dynamic features. Computers & Security, 150, 104262. https://doi.org/10.1016/J.COSE.2024.104262  
 
 ​Zhu, H., Wei, H., Wang, L., Xu, Z., & Sheng, V. S. (2023). An effective end-to-end android malware detection method. Expert Systems with Applications, 218. https://doi.org/10.1016/J.ESWA.2023.119593  
+
+​ ​ 
